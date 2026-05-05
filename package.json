@@ -1,0 +1,16 @@
+{
+  "name": "travel-planner-server",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Local REST server for Travel Planner app",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "ws": "^8.18.3"
+  }
+}

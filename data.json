@@ -1,0 +1,161 @@
+{
+  "trips": [
+    {
+      "id": "094d4c1b-069f-448d-bb5a-aa7b701efd0d",
+      "ownerId": "177793381392199331",
+      "title": "dddd",
+      "destination": "dffdf",
+      "startDate": "May 4, 2026 10:30:18 PM",
+      "endDate": "May 4, 2026 10:30:18 PM",
+      "totalBudget": 1223,
+      "currencyCode": "USD",
+      "coverImageUrl": null,
+      "notes": ""
+    },
+    {
+      "id": "baf318f7-d3d2-4172-955c-6ba1f56d20df",
+      "ownerId": "177793381392199331",
+      "title": "dseresd",
+      "destination": "tokyo",
+      "startDate": "May 4, 2026 10:31:09 PM",
+      "endDate": "May 7, 2026 12:00:00 AM",
+      "totalBudget": 457,
+      "currencyCode": "USD",
+      "coverImageUrl": null,
+      "notes": ""
+    },
+    {
+      "id": "dae0f64f-03f7-4e36-a309-5d59d2dc3f14",
+      "ownerId": "177793391993564629",
+      "title": "dodomy",
+      "destination": "dim",
+      "startDate": "May 8, 2026 12:00:00 AM",
+      "endDate": "May 9, 2026 12:00:00 AM",
+      "totalBudget": 3434,
+      "currencyCode": "USD",
+      "coverImageUrl": null,
+      "notes": ""
+    },
+    {
+      "id": "3c5a5bb2-e08b-47dc-8735-0b27be6910de",
+      "ownerId": "177793391993564629",
+      "title": "uni",
+      "destination": "uni",
+      "startDate": "May 4, 2026 10:40:02 PM",
+      "endDate": "May 7, 2026 12:00:00 AM",
+      "totalBudget": 10,
+      "currencyCode": "USD",
+      "coverImageUrl": null,
+      "notes": ""
+    }
+  ],
+  "routePoints": [
+    {
+      "id": "191cf07a-4e82-42c7-9539-aa677e2d6931",
+      "tripId": "094d4c1b-069f-448d-bb5a-aa7b701efd0d",
+      "name": "c",
+      "address": "dd",
+      "latitude": 34.54,
+      "longitude": 50.78,
+      "arrivalDate": "May 4, 2026 10:33:51 PM",
+      "durationDays": 2,
+      "estimatedCost": 52,
+      "currencyCode": "USD",
+      "isVisited": false,
+      "category": "HOTEL",
+      "notes": ""
+    },
+    {
+      "id": "728ab98d-556c-4c83-8ccc-37eb3b822794",
+      "tripId": "094d4c1b-069f-448d-bb5a-aa7b701efd0d",
+      "name": "wwewere",
+      "address": "erer",
+      "latitude": 34.34,
+      "longitude": 34.45,
+      "arrivalDate": "May 5, 2026 4:04:29 PM",
+      "durationDays": 4,
+      "estimatedCost": 125,
+      "currencyCode": "USD",
+      "isVisited": false,
+      "category": "ATTRACTION",
+      "notes": ""
+    }
+  ],
+  "users": [
+    {
+      "id": "177793381392199331",
+      "displayName": "andrii",
+      "email": "andrii@gmail.com",
+      "password": "123456",
+      "homeCity": "kharkiv",
+      "preferredCurrency": "USD",
+      "registeredAt": 1777933813922
+    },
+    {
+      "id": "177793391993564629",
+      "displayName": "admin",
+      "email": "admin@example.com",
+      "password": "123456",
+      "homeCity": "Київ",
+      "preferredCurrency": "USD",
+      "registeredAt": 1777933919935
+    },
+    {
+      "id": "177800270225534958",
+      "displayName": "ssss",
+      "email": "ssss@sss",
+      "password": "ssssss",
+      "homeCity": "Київ",
+      "preferredCurrency": "USD",
+      "registeredAt": 1778002702297
+    }
+  ],
+  "userTrips": [
+    {
+      "userId": "177793381392199331",
+      "tripId": "094d4c1b-069f-448d-bb5a-aa7b701efd0d"
+    },
+    {
+      "userId": "177793381392199331",
+      "tripId": "baf318f7-d3d2-4172-955c-6ba1f56d20df"
+    },
+    {
+      "userId": "177793391993564629",
+      "tripId": "094d4c1b-069f-448d-bb5a-aa7b701efd0d"
+    },
+    {
+      "userId": "177793391993564629",
+      "tripId": "dae0f64f-03f7-4e36-a309-5d59d2dc3f14"
+    },
+    {
+      "userId": "177793391993564629",
+      "tripId": "3c5a5bb2-e08b-47dc-8735-0b27be6910de"
+    },
+    {
+      "userId": "177800270225534958",
+      "tripId": "baf318f7-d3d2-4172-955c-6ba1f56d20df"
+    }
+  ],
+  "invites": [
+    {
+      "token": "10b98cc2-5fc8-46ef-bb3d-2bf8f5123081",
+      "tripId": "094d4c1b-069f-448d-bb5a-aa7b701efd0d",
+      "createdAt": 1777933930969
+    },
+    {
+      "token": "91a83049-5488-4ec9-ac01-b2b2bc38d494",
+      "tripId": "baf318f7-d3d2-4172-955c-6ba1f56d20df",
+      "createdAt": 1778000569886
+    },
+    {
+      "token": "826f1cef-6d79-4ae9-8ab5-baf253fdf8dc",
+      "tripId": "094d4c1b-069f-448d-bb5a-aa7b701efd0d",
+      "createdAt": 1778001091797
+    },
+    {
+      "token": "a6b8242a-626f-49bb-8926-5a79ef6ec704",
+      "tripId": "baf318f7-d3d2-4172-955c-6ba1f56d20df",
+      "createdAt": 1778002643336
+    }
+  ]
+}
